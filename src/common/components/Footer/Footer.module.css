@@ -1,20 +1,45 @@
-import s from './../Header/Header.module.css'
-import instLogo from './../../images/Instagram_logo.png'
+.container {
+    height: 60px;
+    background: #000000;
+    width: 100%;
 
-export const Footer = () => {
-    return (
-        <div className={s.container}>
-            <div className={}>
-                <div>All rights reserved. 2023</div>
-                <div className={}>
-                    <a href={'https://www.instagram.com/pivniy_zhyvit/'} target={'_blank'}><img className={}
-                                                                                                src={}
-                                                                                                alt={'logo'}/></a>
-                </div>
-                <p className={}>Written by <a href={'https://www.linkedin.com/in/vadimcrmnl1/'} target={'_blank'}>Vadzim Karpenka</a>
-                </p>
-            </div>
+}
 
-        </div>
-    )
+.infoBlock {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: red;
+    align-items: center;
+    font-family: "Roboto Light", monospace;
+}
+
+.instLogo {
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.instLogo:hover {
+    scale: 1.1;
+}
+
+.linkBlock {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description {
+    /*opacity: 0.7;*/
+}
+
+.description a {
+    text-decoration: none;
+    color: #ff0000;
+    transition: 0.5s;
+}
+.description a:hover {
+    color: #ffffff;
 }

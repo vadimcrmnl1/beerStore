@@ -1,8 +1,7 @@
 import React from "react";
-import s from './Shop.module.css'
-import kiev from './../../../common/images/shops/kiev1.png'
-import {ShopType} from "features/Shops/Shops";
-import emptyImage from './../../../common/images/empty_image.png'
+import s from 'features/components/Shops/Shop/Shop.module.css'
+import {ShopType} from "features/components/Shops/Shops";
+import emptyImage from 'common/images/empty_image.png'
 
 export const Shop: React.FC<ShopType> = ({city, address, timeOfWork, image, phone}) => {
     return (

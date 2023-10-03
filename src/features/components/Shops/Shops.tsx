@@ -1,22 +1,22 @@
 import React from "react";
-import {Shop} from "features/Shops/Shop/Shop";
-import s from './Shops.module.css'
-import gaisin from './../../common/images/shops/gaisin.png'
-import uman_kievskaya_4 from './../../common/images/shops/uman_kievskaya_4.png'
-import christinovka from './../../common/images/shops/christinovka.png'
-import uman_nezalezhnosti_73 from './../../common/images/shops/uman-nezalezhnosti-73.png'
-import kiev from './../../common/images/shops/kiev1.png'
+import {v1} from 'uuid'
+
+import {Shop} from "features/components/Shops/Shop/Shop";
+import s from 'features/components/Shops/Shops.module.css'
+
+import * as images from './../../../common/images/shops/index'
+
 export const shops: ShopType[] = [
     {
-        id: 11,
+        id: v1(),
         city: "Умань",
         address: "Київська, 4",
         phone: '+380681515757',
-        image: uman_kievskaya_4,
+        image: images.uman_kievskaya,
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 12,
+        id: v1(),
         city: "Умань",
         address: "Європейська, 28Б",
         phone: '+380681515757',
@@ -24,15 +24,15 @@ export const shops: ShopType[] = [
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 13,
+        id: v1(),
         city: "Умань",
         address: "Незалежності, 73/2",
         phone: '+380671975757',
-        image: uman_nezalezhnosti_73,
+        image: images.uman_nezaleznosti,
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 14,
+        id: v1(),
         city: "Умань",
         address: "Незалежності, 9/8",
         phone: '+380730225444',
@@ -40,15 +40,15 @@ export const shops: ShopType[] = [
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 15,
+        id: v1(),
         city: "Христинівка",
         address: "Гагаріна, 9Д",
         phone: '',
-        image: christinovka,
+        image: images.hristinovka,
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 16,
+        id: v1(),
         city: "Ладижин",
         address: "Будівельників, 11",
         phone: '+380632288822',
@@ -56,7 +56,7 @@ export const shops: ShopType[] = [
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 17,
+        id: v1(),
         city: "Монастирище",
         address: "Соборна",
         phone: '',
@@ -64,16 +64,16 @@ export const shops: ShopType[] = [
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 18,
+        id: v1(),
         city: "Гайсин",
         address: "Першотравнева, 52",
         phone: '+380732288822',
-        image: gaisin,
+        image: images.gaisin,
         timeOfWork: '10:00 - 21:00',
 
     },
     {
-        id: 19,
+        id: v1(),
         city: "Жашків",
         address: "Шевченка, 6а",
         phone: '',
@@ -81,17 +81,25 @@ export const shops: ShopType[] = [
         timeOfWork: '10:00 - 21:00',
     },
     {
-        id: 20,
+        id: v1(),
         city: "Київ",
         address: "Мішуги, 3а",
         phone: '+380679225757',
-        image: kiev,
+        image: images.kiev,
         timeOfWork: '11:00 - 22:00',
+    },
+    {
+        id: v1(),
+        city: "Голованівськ",
+        address: "Ринкова, 1а",
+        phone: '+380679225757',
+        image: images.golovanivsk,
+        timeOfWork: '10:00 - 21:00',
     },
 ]
 
 export type ShopType = {
-    id: number
+    id: string
     city: string
     address: string
     phone: string
@@ -106,7 +114,7 @@ export const Shops: React.FC = () => {
                 <h2>Магазині</h2>
             </div>
             <div className={s.container}>
-                {shops.map((el) => {
+                {shops.map(el => {
                         return <Shop key={el.id} id={el.id} city={el.city} address={el.address} phone={el.phone} image={el.image}
                                      timeOfWork={el.timeOfWork}/>
                     }

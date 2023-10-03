@@ -1,6 +1,5 @@
 import React from "react";
-import {Product} from "common/components/Product/Product";
-import s from './../Shops/Shops.module.css'
+import s from 'features/components/Shops/Shops.module.css'
 
 export const Beer: React.FC = () => {
     return (

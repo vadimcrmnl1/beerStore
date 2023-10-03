@@ -1,5 +1,5 @@
 import React from "react";
-import s from './../Shops/Shops.module.css'
+import s from 'features/components/Shops/Shops.module.css'
 
 export const Fish: React.FC = () => {
     return (

@@ -1,13 +1,42 @@
 .wrapper {
-    margin-top: 100px;
+    margin: 100px auto;
+    width: 95%;
 }
+
 .titleBlock {
-    width: max-content;
-    margin: 0 auto;
+    text-align: left;
+    /*width: max-content;*/
+    /*margin: 0 auto;*/
 }
+
+.titleBlock h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+}
+
 .container {
+    /*margin: 0 auto;*/
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    /*justify-content: space-evenly;*/
     flex-wrap: wrap;
+}
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.productsBlock {
+    width: 70%;
+}
+
+.emptyContainer {
+    width: 100vh;
+    font-size: 24px;
+
+}
+.emptyContainer img {
+    width: 30%;
+
 }

@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    z-index: 100;
+    flex: 0 0 auto;
+    }
+
+.info {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoContainer {
+    height: 90%;
+    width: 60px;
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: space-evenly;*/
+}
+
+.logoContainer img {
+    height: 100%
+}
+
+.imgLogo {
+    margin-top: 3px;
+    height: 100%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.imgLogo:hover {
+    scale: 1.1;
+}
+
+.cartBlock {
+
+    height: 90%;
+    /*background-color: white;*/
+    /*width: 60px;*/
+}
+
+.cartLogo {
+    /*width: 30px;*/
+}
+.cartLogoBlock {
+    margin-top: 10px;
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: space-evenly;*/
+    transition: 0.5s;
+    align-items: initial;
+}
+
+
+.cartNumber {
+    /*float: end;*/
+    background: red;
+    color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin: 0 0 40px 25px;
+    /*text-decoration: none;*/
+}
+
+.title {
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.shoppingCart {
+    color: white;
+    font-size: 32px;
+    transition: 0.2s;
+}
+.shoppingCart:hover {
+    color: red;
+}

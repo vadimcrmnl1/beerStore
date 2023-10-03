@@ -1,0 +1,13 @@
+.wrapper {
+    margin-top: 100px;
+}
+.titleBlock {
+    width: max-content;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

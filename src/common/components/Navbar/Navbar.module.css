@@ -1,0 +1,13 @@
+export const Navbar = () => {
+    return (
+        <div>
+            <div>
+                <button>Beer</button>
+                <button>Snacks</button>
+                <button>Fish</button>
+                <button>Other</button>
+                <button>Shops</button>
+            </div>
+        </div>
+    )
+}

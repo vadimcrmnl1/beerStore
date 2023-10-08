@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beerStore/static/css/main.e88b4d71.css",
-    "main.js": "/beerStore/static/js/main.9a9e0c32.js",
+    "main.js": "/beerStore/static/js/main.787180e0.js",
     "static/js/787.5358ccde.chunk.js": "/beerStore/static/js/787.5358ccde.chunk.js",
     "static/media/tunec-solomka.png": "/beerStore/static/media/tunec-solomka.04065fe2fb5cb558a6c4.png",
     "static/media/polosatik.png": "/beerStore/static/media/polosatik.4f66c15ef37895e17625.png",
@@ -30,11 +30,11 @@
     "static/media/facebook_logo1.png": "/beerStore/static/media/facebook_logo1.281a5d080b47d79d8ed8.png",
     "index.html": "/beerStore/index.html",
     "main.e88b4d71.css.map": "/beerStore/static/css/main.e88b4d71.css.map",
-    "main.9a9e0c32.js.map": "/beerStore/static/js/main.9a9e0c32.js.map",
+    "main.787180e0.js.map": "/beerStore/static/js/main.787180e0.js.map",
     "787.5358ccde.chunk.js.map": "/beerStore/static/js/787.5358ccde.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e88b4d71.css",
-    "static/js/main.9a9e0c32.js"
+    "static/js/main.787180e0.js"
   ]
 }

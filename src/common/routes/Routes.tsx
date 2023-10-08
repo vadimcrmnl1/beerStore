@@ -30,8 +30,9 @@ const router = createHashRouter([
             {
                 errorElement: <ErrorPage/>,
                 children: [
+                    {index: true, element: <Homepage/>},
                     {path: PATH.beer, element: <Beer/>,},
-                    {path: '//', element: <Homepage/>},
+                    {path: PATH.home, element: <Homepage/>},
                     {path: PATH.souvenirs, element: <Souvenirs/>},
                     {path: PATH.shacks, element: <Snacks/>},
                     {path: PATH.fish, element: <Fish/>},

@@ -156,16 +156,13 @@ const chips: ProductType[] = [
 
 export const Fish: React.FC = () => {
 
-    const writeToDatabase = () => {
-        set(ref(db, `snacks/chips`), chips)
-    }
+
 
 
     return (
         <div className={s.wrapper}>
             <div>
                 <h2>Ріба</h2>
-                <button onClick={writeToDatabase}>Add to DB</button>
             </div>
         </div>
     )

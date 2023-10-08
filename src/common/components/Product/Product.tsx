@@ -1,8 +1,8 @@
 import React from "react";
 import s from './Product.module.css'
 import {useAppDispatch} from "app/store";
-import {addProductAC} from "features/Cart/actions";
-import {setProductOrderedAC} from "features/components/Snacks/actions";
+import {addProductAC} from "features/Cart/model/actions";
+import {setProductOrderedAC} from "features/components/Snacks/model/actions";
 
 
 export const Product: React.FC<ProductType> = React.memo(({
@@ -67,11 +67,11 @@ export type ProductType = {
     image?: string
     brand?: string
     manufacturer?: string
-    type: string
+    type: 'weight' | 'package'
     category?: CategoryType
     ordered?: boolean
 
 
 }
-type CategoryType = 'toast' | 'seafood'
+type CategoryType = 'toast' | 'seafood' | 'chips'
 type ProductTypeForm = 'beer' | 'snack' | 'drink' | 'souvenir' | 'fish' | 'toast' | 'seafood' | 'package' | 'weight'

@@ -1,9 +1,9 @@
 import React from "react";
-import s from './CartProduct.module.css'
+import s from 'features/Cart/components/CartProduct/CartProduct.module.css'
 import {ProductType} from "common/components/Product/Product";
 import {useAppDispatch} from "app/store";
-import {decrementProductAC, incrementProductAC, removeProductAC} from "features/Cart/actions";
-import {setProductOrderedAC} from "features/components/Snacks/actions";
+import {decrementProductAC, incrementProductAC, removeProductAC} from "features/Cart/model/actions";
+import {setProductOrderedAC} from "features/components/Snacks/model/actions";
 
 export const CartProduct: React.FC<ProductType> = ({
                                                        id, image,

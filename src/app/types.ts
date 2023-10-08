@@ -1,4 +1,4 @@
 import * as actions from './actions'
 import {InferValueTypes} from "app/store";
 
-export type CartActionsType = ReturnType<InferValueTypes<typeof actions>>
+export type AppActionTypes = ReturnType<InferValueTypes<typeof actions>>

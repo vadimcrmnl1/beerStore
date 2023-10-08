@@ -1,7 +1,7 @@
 import React from "react";
-import s from './CartWindow.module.css'
+import s from 'features/Cart/components/CartWindow/CartWindow.module.css'
 import {useAppSelector} from "app/store";
-import {selectProducts, selectTotalCartPrice} from "features/Cart/selectors";
+import {selectProducts, selectTotalCartPrice} from "features/Cart/model/selectors";
 import {ModalForm} from "common/components/ModalForm/ModalForm";
 
 export const CartWindow: React.FC = () => {
@@ -17,7 +17,6 @@ export const CartWindow: React.FC = () => {
                 <span>Позицій у замовленні: {products.length}</span>
                 <span>Сума замовлення: {totalCartPrice} грн</span>
                 <ModalForm/>
-                {/*<button className={s.buttonCheckout} onClick={handleCheckout}>Оформити замовлення</button>*/}
             </div>
 
         </div>

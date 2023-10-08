@@ -28,3 +28,7 @@ export const removeCartAC = (products: ProductType[], totalCount: number, totalC
     type: 'CART/REMOVE_CART',
     payload: {products, totalCount, totalCartPrice}
 } as const)
+export const setOrderSentAC = (orderSent: boolean) => ({
+    type: 'CART/ORDER_SENT',
+    payload: {orderSent}
+} as const)

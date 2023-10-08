@@ -1,10 +1,11 @@
 import {ProductType} from "common/components/Product/Product";
-import {CartActionsType} from "features/Cart/types";
+import {CartActionsType} from "features/Cart/model/types";
 
 export const cartInitialState = {
     products: [] as ProductType[],
     totalCount: 0,
     totalCartPrice: 50,
+    orderSent: false
 }
 export type CartInitialStateType = typeof cartInitialState
 export const cartReducer = (state: CartInitialStateType = cartInitialState, action: CartActionsType): CartInitialStateType => {
@@ -51,6 +52,10 @@ export const cartReducer = (state: CartInitialStateType = cartInitialState, acti
                 products: action.payload.products,
                 totalCount: action.payload.totalCount,
                 totalCartPrice: action.payload.totalCartPrice
+            }
+        case 'CART/ORDER_SENT':
+            return {
+                ...state, orderSent: action.payload.orderSent
             }
         default:
             return state

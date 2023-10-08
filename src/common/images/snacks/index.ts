@@ -18,7 +18,7 @@ import pautinka from './pautinka.png'
 import polosatik from './polosatik.png'
 import tunecSolomka from './tunec-solomka.png'
 import yantarnayaSPercem from './yantarnaya-s-percem.png'
-
+import pringles from './pringles_chips.jpg'
 export {
     ikryanikSolomka,
     tunecSolomka,
@@ -39,5 +39,6 @@ export {
     cabanosSvinina,
     chipsSvinina,
     chipsChicken,
-    pautinka
+    pautinka,
+    pringles
 }

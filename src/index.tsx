@@ -6,7 +6,7 @@ import {RouterProvider} from "react-router-dom";
 import router from "common/routes/Routes";
 import {Provider} from "react-redux";
 import {store} from "app/store";
-
+import './app/firebase'
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement

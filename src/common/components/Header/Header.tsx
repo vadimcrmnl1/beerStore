@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 import {PATH} from "common/routes/Routes";
 import {Navbar} from "common/components/Navbar/Navbar";
 import {useAppSelector} from "app/store";
-import {selectProducts} from "features/Cart/selectors";
+import {selectProducts} from "features/Cart/model/selectors";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 export const Header: React.FC = () => {

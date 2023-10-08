@@ -1,6 +1,7 @@
 {
   "name": "beerstore",
   "version": "0.1.0",
+  "homepage": "https://vadimcrmnl1.github.io/beerStore/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

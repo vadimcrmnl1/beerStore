@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/beerStore/static/css/main.8b5d5423.css",
-    "main.js": "/beerStore/static/js/main.14eda699.js",
+    "main.css": "/beerStore/static/css/main.a92a19a0.css",
+    "main.js": "/beerStore/static/js/main.1cfcc520.js",
     "static/js/787.5358ccde.chunk.js": "/beerStore/static/js/787.5358ccde.chunk.js",
     "static/media/empty_image.png": "/beerStore/static/media/empty_image.eb2428a906c013d66fc4.png",
     "static/media/Instagram_logo.png": "/beerStore/static/media/Instagram_logo.57daa6fd93e8cd59b3d1.png",
     "static/media/logo.png": "/beerStore/static/media/logo.8e17988e4da079d0e07d.png",
     "static/media/facebook_logo1.png": "/beerStore/static/media/facebook_logo1.281a5d080b47d79d8ed8.png",
     "index.html": "/beerStore/index.html",
-    "main.8b5d5423.css.map": "/beerStore/static/css/main.8b5d5423.css.map",
-    "main.14eda699.js.map": "/beerStore/static/js/main.14eda699.js.map",
+    "main.a92a19a0.css.map": "/beerStore/static/css/main.a92a19a0.css.map",
+    "main.1cfcc520.js.map": "/beerStore/static/js/main.1cfcc520.js.map",
     "787.5358ccde.chunk.js.map": "/beerStore/static/js/787.5358ccde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b5d5423.css",
-    "static/js/main.14eda699.js"
+    "static/css/main.a92a19a0.css",
+    "static/js/main.1cfcc520.js"
   ]
 }

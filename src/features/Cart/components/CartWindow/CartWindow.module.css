@@ -32,3 +32,14 @@
 .buttonCheckout:hover {
     background: #de0000;
 }
+@media screen and (max-width: 600px){
+.wrapper {
+    width: 100%;
+}
+    .wrapper p {
+        font-size: 18px;
+    }
+    .container {
+        height: 100px;
+    }
+}

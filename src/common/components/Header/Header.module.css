@@ -84,3 +84,19 @@
 .shoppingCart:hover {
     color: red;
 }
+@media screen and (max-width: 600px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cartLogoBlock {
+        display: flex;
+        flex-direction: revert;
+    }
+    .title {
+        font-size: 14px;
+        width: 50%;
+    }
+
+}

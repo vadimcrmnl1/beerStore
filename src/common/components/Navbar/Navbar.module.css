@@ -46,3 +46,15 @@
     color: #ff1818;
     /*border: 2px solid red;*/
 }
+
+@media screen and (max-width: 600px){
+    .container {
+        width: 100%;
+        height: max-content;
+    }
+    .buttonBlock {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

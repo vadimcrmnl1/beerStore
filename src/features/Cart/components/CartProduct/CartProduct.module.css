@@ -57,3 +57,40 @@
     opacity: 0.5;
     /*margin: 40px 0 0 51%;*/
 }
+@media screen and (max-width: 600px){
+    .wrapper {
+        width: 99%;
+        height: 100px;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container span {
+        font-size: 12px;
+    }
+    .title {
+        width: 50%;
+    }
+    .buttonContainer {
+        width: 100%;
+        /*margin: 5px;*/
+    }
+    .buttonBlock button {
+        width: 80px;
+        height: 30px;
+        font-size: 16px;
+        margin: 5px;
+    }
+    .minAmount {
+    }
+    .amount {
+        width: 10%;
+    }
+    .price {
+        width: 10%;
+        font-weight: bold;
+    }
+}

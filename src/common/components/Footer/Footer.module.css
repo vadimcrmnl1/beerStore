@@ -43,3 +43,11 @@
 .description a:hover {
     color: #ffffff;
 }
+@media screen and (max-width: 600px){
+    .description {
+        font-size: 10px;
+    }
+    .linkBlock {
+        width: 50%;
+    }
+}

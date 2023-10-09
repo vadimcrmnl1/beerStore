@@ -34,7 +34,7 @@ export const ModalForm: React.FC = () => {
                 open={open}
                 onClose={handleClose}
             >
-                <Box sx={style}>
+                <Box sx={style} className={st.boxStyle}>
                     <div className={st.title}>
                         Ваше замовлення
                     </div>

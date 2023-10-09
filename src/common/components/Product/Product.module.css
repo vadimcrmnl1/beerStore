@@ -97,3 +97,9 @@
     color: red;
     border: 1px solid red;
 }
+@media screen and (max-width: 600px){
+    .wrapper {
+        width: 90%;
+    }
+
+}

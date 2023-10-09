@@ -42,7 +42,6 @@ export const Form: React.FC<FormPropsType> = ({setOpen, products, totalCartPrice
     useEffect(() => {
         onValue(ref(db), snapshot => {
             const data = snapshot.val()
-            console.log(data)
             dispatch(fetchShopsAC(data.shops))
         })
 
@@ -72,7 +71,7 @@ export const Form: React.FC<FormPropsType> = ({setOpen, products, totalCartPrice
         <form onSubmit={handleSubmit(onSubmit)} className={st.formContainer}>
             <select className={st.inputForm} {...register('shop', {required: true})}>
                 {shops.length && shops.map((el, index) => {
-                    return <option key={index}
+                    return <option className={st.selectOption} key={index}
                                    value={el.city + ' ' + el.address}>{el.city + ', ' + el.address}</option>
                 })}
             </select>

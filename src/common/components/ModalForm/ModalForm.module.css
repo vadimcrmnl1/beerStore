@@ -4,7 +4,9 @@
     font-size: 20px;
     margin: 0 0 15px 30px;
 }
-
+.boxStyle {
+    width: 400px;
+}
 .descriptionBlock {
     font-family: "Roboto Light", monospace;
     font-size: 14px;
@@ -45,7 +47,10 @@
 }
 @media screen and (max-width: 600px){
     .boxStyle {
-        width:80%;
+        width:300px;
+    }
+    .formContainer {
+        width: 100%;
     }
     .formContainer button {
         width: 100%;

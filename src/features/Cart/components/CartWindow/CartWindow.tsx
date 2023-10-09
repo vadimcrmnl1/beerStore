@@ -14,8 +14,8 @@ export const CartWindow: React.FC = () => {
             <p>Ваше замовлення</p>
             <div className={s.container}>
                 <span>Стоимость доставки в любую точку 50 грн</span>
-                <span>Позицій у замовленні: {products.length}</span>
-                <span>Сума замовлення: {totalCartPrice} грн</span>
+                <span>Позицій у замовленні: <b>{products.length}</b></span>
+                <span>Сума замовлення: <b>{totalCartPrice} грн</b></span>
                 <ModalForm/>
             </div>
 

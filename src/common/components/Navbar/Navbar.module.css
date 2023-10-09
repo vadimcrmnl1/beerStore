@@ -25,6 +25,7 @@
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 11;
+    width: 30px;
 }
 
 .pendingButton {
@@ -50,11 +51,25 @@
 @media screen and (max-width: 600px){
     .container {
         width: 100%;
-        height: max-content;
+        height: min-content;
     }
     .buttonBlock {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         flex-wrap: wrap;
+        width: 100%;
     }
+    .link {
+        margin: 5px;
+        width: 20%;
+        font-size: 20px;
+    }
+    .pendingButton {
+        width: 20%;
+    }
+    .activeButton {
+        width: 20%;
+    }
+
 }

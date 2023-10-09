@@ -1,40 +1,19 @@
 {
   "files": {
-    "main.css": "/beerStore/static/css/main.e88b4d71.css",
-    "main.js": "/beerStore/static/js/main.be3f7b2d.js",
+    "main.css": "/beerStore/static/css/main.e5a68101.css",
+    "main.js": "/beerStore/static/js/main.b6e379f2.js",
     "static/js/787.5358ccde.chunk.js": "/beerStore/static/js/787.5358ccde.chunk.js",
-    "static/media/tunec-solomka.png": "/beerStore/static/media/tunec-solomka.04065fe2fb5cb558a6c4.png",
-    "static/media/polosatik.png": "/beerStore/static/media/polosatik.4f66c15ef37895e17625.png",
-    "static/media/krevetka-canada.png": "/beerStore/static/media/krevetka-canada.71c4d0758d1bb5aae2ba.png",
-    "static/media/krevetka-black-sea.png": "/beerStore/static/media/krevetka-black-sea.c9775d96e27aff732487.png",
-    "static/media/krevetka-langustin.png": "/beerStore/static/media/krevetka-langustin.d1cd7ac24dd70642ca39.png",
-    "static/media/chips-svinina.png": "/beerStore/static/media/chips-svinina.f58933662b1bd2a498e7.png",
-    "static/media/kalmar-kunzhut.png": "/beerStore/static/media/kalmar-kunzhut.88724b35b2c0f4f46734.png",
-    "static/media/kalmar-peruanskiy.png": "/beerStore/static/media/kalmar-peruanskiy.2451b98813a65c37975a.png",
-    "static/media/yantarnaya-s-percem.png": "/beerStore/static/media/yantarnaya-s-percem.01ddae5cdcd1c5cc1ddf.png",
-    "static/media/langustini-b-g.png": "/beerStore/static/media/langustini-b-g.869cc217d1660df86057.png",
-    "static/media/pautinka.png": "/beerStore/static/media/pautinka.7bc8c92f67bcfacf3220.png",
-    "static/media/basturma-konina.png": "/beerStore/static/media/basturma-konina.3553f84bb96d326e9948.png",
-    "static/media/chips-chicken.png": "/beerStore/static/media/chips-chicken.eb202548c3914649046b.png",
-    "static/media/kalmar-kolca.png": "/beerStore/static/media/kalmar-kolca.e8b9ef567d3b533c6ca5.png",
-    "static/media/ikryanik-solomka.png": "/beerStore/static/media/ikryanik-solomka.bb2cbf77bbed62fcb2ce.png",
-    "static/media/cabanos-svinina.png": "/beerStore/static/media/cabanos-svinina.de99e7c510209275c814.png",
     "static/media/empty_image.png": "/beerStore/static/media/empty_image.eb2428a906c013d66fc4.png",
-    "static/media/grenki-chesnok.jpg": "/beerStore/static/media/grenki-chesnok.bfb9a64572266e48e57c.jpg",
-    "static/media/grenki-vasabi.jpg": "/beerStore/static/media/grenki-vasabi.55ecdfb089cf2b0be9d2.jpg",
-    "static/media/grenki-sir-s-lukom.jpg": "/beerStore/static/media/grenki-sir-s-lukom.c9ebecfdaa414e08946c.jpg",
     "static/media/Instagram_logo.png": "/beerStore/static/media/Instagram_logo.57daa6fd93e8cd59b3d1.png",
-    "static/media/grenki-paprika.jpg": "/beerStore/static/media/grenki-paprika.3bea574c938c47ceeeae.jpg",
     "static/media/logo.png": "/beerStore/static/media/logo.8e17988e4da079d0e07d.png",
-    "static/media/pringles_chips.jpg": "/beerStore/static/media/pringles_chips.dea41122940a824f6909.jpg",
     "static/media/facebook_logo1.png": "/beerStore/static/media/facebook_logo1.281a5d080b47d79d8ed8.png",
     "index.html": "/beerStore/index.html",
-    "main.e88b4d71.css.map": "/beerStore/static/css/main.e88b4d71.css.map",
-    "main.be3f7b2d.js.map": "/beerStore/static/js/main.be3f7b2d.js.map",
+    "main.e5a68101.css.map": "/beerStore/static/css/main.e5a68101.css.map",
+    "main.b6e379f2.js.map": "/beerStore/static/js/main.b6e379f2.js.map",
     "787.5358ccde.chunk.js.map": "/beerStore/static/js/787.5358ccde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e88b4d71.css",
-    "static/js/main.be3f7b2d.js"
+    "static/css/main.e5a68101.css",
+    "static/js/main.b6e379f2.js"
   ]
 }

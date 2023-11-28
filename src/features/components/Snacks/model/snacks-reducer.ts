@@ -10,6 +10,7 @@ export const snacksInitialState = {
     peanut: [] as ProductType[],
     meat: [] as ProductType[],
 }
+
 export type SnacksInitialStateType = typeof snacksInitialState
 export const snacksReducer = (state: SnacksInitialStateType = snacksInitialState, action: SnacksActionTypes): SnacksInitialStateType => {
     switch (action.type) {

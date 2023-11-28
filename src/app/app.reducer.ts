@@ -1,7 +1,7 @@
 import {AppActionTypes} from "app/types";
 
 const appInitialState = {
-    isLoading: false
+    isLoading: false,
 }
 export const appReducer = (state: AppInitialStateType = appInitialState, action: AppActionTypes): AppInitialStateType => {
     switch (action.type) {

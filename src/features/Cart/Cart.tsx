@@ -8,6 +8,7 @@ import {EmptyCart} from "features/Cart/components/EmptyCart/EmptyCart";
 
 export const Cart: React.FC = () => {
     const products = useAppSelector(selectProducts)
+    console.log('cart products', products)
 
     return (
         <div className={s.wrapper}>

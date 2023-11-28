@@ -1,9 +1,8 @@
-import React from "react";
-import s from './Product.module.css'
 import {useAppDispatch} from "app/store";
 import {addProductAC} from "features/Cart/model/actions";
 import {setProductOrderedAC} from "features/components/Snacks/model/actions";
-
+import React from "react";
+import s from './Product.module.css'
 
 export const Product: React.FC<ProductType> = React.memo(({
                                                               id,
@@ -22,6 +21,7 @@ export const Product: React.FC<ProductType> = React.memo(({
         dispatch(addProductAC({id, title, description, price, amount, type, image, totalPrice, totalAmount}))
         dispatch(setProductOrderedAC(true, id))
     }
+
     return (
         <div className={s.wrapper}>
             <div className={s.container}>

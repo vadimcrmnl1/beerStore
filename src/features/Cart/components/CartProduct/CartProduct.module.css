@@ -10,16 +10,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 48px;
+    min-height: 60px;
     margin: 10px;
+    flex-grow: 1;
 }
-
+.title {
+    flex-grow: 1;
+}
 .container img {
-    width: 40px;
     height: 40px;
     border-radius: 50%;
+    flex-grow: 0;
 }
-
+.amount {
+    flex-grow: 2;
+}
+.price {
+    flex-grow: 1;
+}
 .buttonContainer {
     width: 15%;
     height: 90%;
@@ -52,9 +60,10 @@
 }
 
 .minAmount {
-    position: inherit;
+    position: absolute;
     font-size: 11px;
     opacity: 0.5;
+    margin: 25px 15px 0 0;
     /*margin: 40px 0 0 51%;*/
 }
 @media screen and (max-width: 600px){
@@ -85,6 +94,7 @@
         margin: 5px;
     }
     .minAmount {
+        margin: 40px 0 0 0;
     }
     .amount {
         width: 10%;

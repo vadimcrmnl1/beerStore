@@ -4,6 +4,7 @@ import {ProductType} from "common/components/Product/Product";
 import {useAppDispatch} from "app/store";
 import {decrementProductAC, incrementProductAC, removeProductAC} from "features/Cart/model/actions";
 import {setProductOrderedAC} from "features/components/Snacks/model/actions";
+import {setDrinksOrderedAC} from "../../../components/Drinks/model/actions";
 
 export const CartProduct: React.FC<ProductType> = ({
                                                        id, image,
@@ -15,6 +16,8 @@ export const CartProduct: React.FC<ProductType> = ({
         if (type === 'package' && totalAmount === 1 || type === 'weight' && totalAmount === 100) {
             dispatch(removeProductAC(id, price))
             dispatch(setProductOrderedAC(false, id))
+            dispatch(setDrinksOrderedAC(false, id))
+
         } else {
             dispatch(decrementProductAC(id, amount, price))
         }

@@ -10,10 +10,13 @@ import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
 import {applyMiddleware, combineReducers, legacy_createStore} from "redux";
 import {composeWithDevTools} from "redux-devtools-extension";
 import thunk, {ThunkDispatch} from "redux-thunk";
+import {drinksReducer} from "../features/components/Drinks/model/drinks-reducer";
+import {DrinksActionTypes} from "../features/components/Drinks/model/types";
 
 const rootReducer = combineReducers({
     cart: cartReducer,
     snacks: snacksReducer,
+    drinks: drinksReducer,
     shops: shopsReducer,
     app: appReducer
 })
@@ -28,7 +31,7 @@ export type InferValueTypes<T> = T extends { [key: string]: infer U } ? U : neve
 export type AppRootStateType = ReturnType<typeof rootReducer>
 
 export type AppThunkDispatch = ThunkDispatch<AppRootStateType, unknown, AllReducersActionsType>
-export type AllReducersActionsType = CartActionsType | SnacksActionTypes | ShopsActionTypes | AppActionTypes
+export type AllReducersActionsType = CartActionsType | SnacksActionTypes | ShopsActionTypes | AppActionTypes | DrinksActionTypes
 
 // @ts-ignore
 window.store = store
